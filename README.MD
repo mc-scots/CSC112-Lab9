@@ -574,7 +574,7 @@ Now, to round this out, let's modify the game and make it your own.
    it struck the paddle. The more adventurous among you will try to
    allow the user put "spin" on the ball.  Such a person will be more
    succesful in their careers, and will become automatically more
-   attractive to any sort of mate they wish to attract.  But this is
+   attractive to any sort of mate they wish to attract.  But spin is
    optional...
 3. Keep score and display it somewhere.
 
