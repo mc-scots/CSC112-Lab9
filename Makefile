@@ -1,11 +1,10 @@
-CC=g++
-CXXFLAGS=-g
-LDFLAGS=-pthread
-WIDGET=term.o application.o keystream.o widget.o
-TARGETS=numberTest stopwatch
+CXXFLAGS=`fltk-config --cxxflags`
+LDFLAGS=`fltk-config --ldflags`
+TARGETS=pong
 
 all: $(TARGETS)
-numberTest: $(WIDGET) number.o numberTest.o timer.o
-stopwatch: $(WIDGET) stopwatch.o clockDisplay.o number.o timer.o dot.o
+pong: ball.o field.o pong.o
+	g++ $(CXXFLAGS) -o $@ $^ $(LDFLAGS)
+
 clean:
-	rm -f $(TARGETS) *.o
+	rm -f *.o $(TARGETS)
