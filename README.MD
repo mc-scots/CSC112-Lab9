@@ -525,6 +525,7 @@ handled via the following:
         case FL_Up:
         case FL_Down:
             _player.vy(0);
+            break;
         }
         return 1;
         break;
