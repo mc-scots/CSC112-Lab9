@@ -571,7 +571,11 @@ Now, to round this out, let's modify the game and make it your own.
 1. Make the computer beatable, but competent.
 2. Make the paddle change the trajectory of the ball.  The original
    pong factored in the vertical velocity of the ball as well as where
-   it struck the paddle.
+   it struck the paddle. The more adventurous among you will try to
+   allow the user put "spin" on the ball.  Such a person will be more
+   succesful in their careers, and will become automatically more
+   attractive to any sort of mate they wish to attract.  But this is
+   optional...
 3. Keep score and display it somewhere.
 
 After you have completed these three challenges, you will have written
